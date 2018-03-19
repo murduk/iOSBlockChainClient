@@ -14,6 +14,8 @@
 		55C2B9DC205E006200CB07C3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 55C2B9DA205E006200CB07C3 /* LaunchScreen.storyboard */; };
 		55C2B9E7205E006200CB07C3 /* RestTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55C2B9E6205E006200CB07C3 /* RestTestTests.swift */; };
 		55C2B9F2205E006200CB07C3 /* RestTestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55C2B9F1205E006200CB07C3 /* RestTestUITests.swift */; };
+		55C2BA00205E017000CB07C3 /* QueryService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55C2B9FF205E017000CB07C3 /* QueryService.swift */; };
+		55C2BA02205F369B00CB07C3 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55C2BA01205F369B00CB07C3 /* SecondViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		55C2B9ED205E006200CB07C3 /* RestTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RestTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		55C2B9F1205E006200CB07C3 /* RestTestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestTestUITests.swift; sourceTree = "<group>"; };
 		55C2B9F3205E006200CB07C3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		55C2B9FF205E017000CB07C3 /* QueryService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QueryService.swift; sourceTree = "<group>"; };
+		55C2BA01205F369B00CB07C3 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,9 +104,11 @@
 				55C2B9D1205E006200CB07C3 /* AppDelegate.swift */,
 				55C2B9D3205E006200CB07C3 /* ViewController.swift */,
 				55C2B9D5205E006200CB07C3 /* Main.storyboard */,
+				55C2BA01205F369B00CB07C3 /* SecondViewController.swift */,
 				55C2B9D8205E006200CB07C3 /* Assets.xcassets */,
 				55C2B9DA205E006200CB07C3 /* LaunchScreen.storyboard */,
 				55C2B9DD205E006200CB07C3 /* Info.plist */,
+				55C2B9FF205E017000CB07C3 /* QueryService.swift */,
 			);
 			path = RestTest;
 			sourceTree = "<group>";
@@ -259,7 +265,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				55C2BA02205F369B00CB07C3 /* SecondViewController.swift in Sources */,
 				55C2B9D4205E006200CB07C3 /* ViewController.swift in Sources */,
+				55C2BA00205E017000CB07C3 /* QueryService.swift in Sources */,
 				55C2B9D2205E006200CB07C3 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -427,6 +435,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Q77TALYZQA;
 				INFOPLIST_FILE = RestTest/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = murduk.RestTest;
@@ -441,6 +450,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Q77TALYZQA;
 				INFOPLIST_FILE = RestTest/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = murduk.RestTest;
